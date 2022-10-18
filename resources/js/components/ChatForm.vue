@@ -25,7 +25,7 @@
 
 <script>
 import {reactive} from 'vue';
-import useChat from '../composables/chat';
+import useChat from '../composables/chat.js';
 export default {
     name: 'ChatForm',
     setup() {
